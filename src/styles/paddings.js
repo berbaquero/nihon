@@ -1,5 +1,5 @@
-import { css } from "glamor";
-import { spacing, classes } from "./utils";
+import { css } from 'glamor';
+import { spacing, classes } from './utils';
 
 //// SIDES
 

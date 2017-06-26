@@ -1,24 +1,20 @@
-import { h } from "preact";
-import { css } from "../styles/utils";
-import color from "../styles/colors";
-import padding from "../styles/paddings";
-import margin from "../styles/margins";
-import font from "../styles/fonts";
+import { h } from 'preact';
+import css, { color, padding, margin, font } from '../styles';
 
 const wrapStyle = css(
   {
     borderRadius: 7,
     color: color.white,
-    fontWeight: "bold",
-    boxShadow: "0 3px 12px rgba(0, 0, 0, .5)",
+    fontWeight: 'bold',
+    boxShadow: '0 3px 12px rgba(0, 0, 0, .5)',
   },
   padding.all(2),
   margin.bottom(5)
 );
 
 const hiraganaStyle = css({
-  display: "inline-block",
-  fontWeight: "normal",
+  display: 'inline-block',
+  fontWeight: 'normal',
 });
 
 const numberCardStyle = css({
@@ -34,8 +30,8 @@ const phraseCardStyle = css({
 });
 
 const Card = ({ romaji, english, hiragana, type }) => {
-  const isNumber = type && type === "number";
-  const isPhrase = type && type === "phrase";
+  const isNumber = type && type === 'number';
+  const isPhrase = type && type === 'phrase';
   const isWord = !isNumber && !isPhrase;
 
   const backgroundColor = isWord

@@ -1,8 +1,8 @@
-import colors from "./colors";
-import fonts from "./fonts";
-import margins from "./margins";
-import paddings from "./paddings";
-import { spacing, classes, css } from "./utils";
+import colors from './colors';
+import fonts from './fonts';
+import margins from './margins';
+import paddings from './paddings';
+import { spacing, classes, css } from './utils';
 
 export {
   colors as color,

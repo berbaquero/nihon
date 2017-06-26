@@ -1,9 +1,9 @@
-import { h } from "preact";
-import font from "../styles/fonts";
-import Card from "../components/Card";
-import Heading from "../components/Heading";
-import NavBar from "../components/NavBar";
-import { sortWords } from "../modules/operations";
+import { h } from 'preact';
+import font from '../styles/fonts';
+import Card from '../components/Card';
+import Heading from '../components/Heading';
+import NavBar from '../components/NavBar';
+import { sortWords } from '../modules/operations';
 
 const App = ({ words, phrases, numbers }) =>
   <main className={font.sansSerif}>

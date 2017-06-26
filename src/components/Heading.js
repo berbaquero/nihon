@@ -1,5 +1,5 @@
-import { h } from "preact";
-import css, { color, margin, font } from "../styles";
+import { h } from 'preact';
+import css, { color, margin, font } from '../styles';
 
 const headingStyle = css(
   {

@@ -1,14 +1,14 @@
-import { h } from "preact";
-import css, { margin, padding, color } from "../styles";
+import { h } from 'preact';
+import css, { margin, padding, color } from '../styles';
 
 const navStyle = css(
   {
-    position: "fixed",
+    position: 'fixed',
     bottom: 0,
     left: 0,
-    display: "flex",
-    justifyContent: "center",
-    width: "100%",
+    display: 'flex',
+    justifyContent: 'center',
+    width: '100%',
   },
   margin.all(4)
 );
@@ -17,11 +17,11 @@ const linkStyle = css(
   {
     backgroundColor: color.white,
     color: color.black,
-    border: "3px solid",
-    textDecoration: "none",
-    transform: "rotate(-13deg)",
-    fontStyle: "italic",
-    fontWeight: "bold",
+    border: '3px solid',
+    textDecoration: 'none',
+    transform: 'rotate(-13deg)',
+    fontStyle: 'italic',
+    fontWeight: 'bold',
   },
   margin.right(3),
   padding.all(2)
