@@ -52,7 +52,7 @@ const words = [
   { english: 'please', romaji: 'onegaishimasu', hiragana: 'おねがいします' },
   { english: 'water 💦', romaji: 'mizu', hiragana: 'みず' },
   { english: 'that', romaji: 'are', hiragana: 'あれ' },
-  { english: 'heart', romaji: 'kokoro', hiragana: 'こころ' },
+  { english: 'heart ❤️', romaji: 'kokoro', hiragana: 'こころ' },
 ];
 
 export default words;
