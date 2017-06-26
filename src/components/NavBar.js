@@ -17,11 +17,11 @@ const linkStyle = css(
   {
     backgroundColor: color.white,
     color: color.black,
-    border: '3px solid',
+    border: '2px solid',
     textDecoration: 'none',
-    transform: 'rotate(-13deg)',
     fontStyle: 'italic',
     fontWeight: 'bold',
+    borderRadius: 7,
   },
   margin.right(3),
   padding.all(2)
