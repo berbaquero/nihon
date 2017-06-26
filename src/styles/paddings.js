@@ -1,5 +1,5 @@
 import { css } from 'glamor';
-import { spacing, classes } from './utils';
+import { spacing, compose } from './utils';
 
 //// SIDES
 
@@ -30,15 +30,15 @@ const right = step => {
 // COMPOSED
 
 const horizontal = step => {
-  return classes(left(step), right(step));
+  return compose(left(step), right(step));
 };
 
 const vertical = step => {
-  return classes(top(step), bottom(step));
+  return compose(top(step), bottom(step));
 };
 
 const all = step => {
-  return classes(horizontal(step), vertical(step));
+  return compose(horizontal(step), vertical(step));
 };
 
 export default {

@@ -8,11 +8,12 @@ const spacing = step => {
   return step * baseSpacing;
 };
 
-const classes = (...args) => {
+const compose = (...args) => {
   return args.join(' ');
 };
 
-const csx = (style, ...classes) =>
+// hexagonal for glamor
+const CSS = (style, ...classes) =>
   classes.concat(style ? css(style) : '').join(' ');
 
-export { classes, csx as css, spacing };
+export { compose, CSS as css, spacing };
